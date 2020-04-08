@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Details</title>
+  </head>
+  <body>
+    <img src="IMG_20190806_183603.jpg" alt="Paco contact picture" style="width:200px;height:250px;">
+    <ul>
+      <li>Name: Paco Pacs</li>
+      <li>Email: pep@gmail.com</li>
+      <li>Cell: 333333333</li>
+      <li>Address: somewhere in Genova</li>
+    </ul>
+
+    <p>To contact me please provide me with ...</p>
+
+    <form action="mailto:pep@gmail.com" method="post" enctype="text/plain">
+      <table>
+        <tr>
+          <td><label for="name">Your name</label></td>
+          <td><input type="text" name="name" value=""><br></td>
+        </tr>
+
+        <tr>
+          <td><label for="phone">Your phone number</label></td>
+          <td><input type="text" name="phone" value=""><br></td>
+        </tr>
+
+        <tr>
+          <td><label for="email">Your e_mail</label></td>
+          <td><input type="text" name="email" value=""></td>
+        </tr>
+      </table>
+
+      <label for="">Will you share your money with me? If yes feel free to do so.</label>
+      <input type="number" name="money" value=""><br>
+
+      <p><strong>Only for females</strong></p>
+
+      <label for="">Will you consider to date me/marry me?</label>
+      <input type="checkbox" name="marry" value=""><br>
+
+      <label for="">Please insert a picture of yourself</label>
+      <input type="file" name="photo" value="" accept="image/jpeg, image/gif, image/x-png, image/x-photo-cd"><br>
+
+      <label for="">Leave a messagge (only nice ones)</label><br>
+      <textarea name="messagge" rows="8" cols="80"></textarea><br>
+
+      <input type="submit" name="" value="Submit/Surrender">
+    </form>
+
+  </body>
+</html>
